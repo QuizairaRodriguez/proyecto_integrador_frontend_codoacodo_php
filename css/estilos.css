@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*clases utilitarias*/
+.colorGris {
+    color: rgb(154, 158, 161);
+}
+.colorBlanco {
+    color: white;
+}
+.colorVerde {
+    color: rgb(40, 166, 69)
+}
+.linkNav{
+    text-decoration: none;
+}
+/*estilos del header*/
+header {
+    height: 12vh;
+    background-color: rgb(53, 58, 64);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem;
+    .contenedorLogo{
+        display: flex;
+        align-items: center;
+    }
+}
+.contenedorLogo a{
+    display: inline-block;
+    width: 8rem;
+}
+.logo{
+    width: 100%;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+/*estilos del banner*/
+.banner {
+    height: 80vh;
+    background: linear-gradient(to right top, #000000c1, #00000045, #000000c1), url(../assets/img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*estilos del footer*/
+.footer{
+    background-image: linear-gradient(to right, #1c3844, #1c3f4f, #1c465a, #1c4c66, #1e5372);
+    height: 15vh;
+}
+.footer ul li {
+    list-style: none;
+    display: inline;
+}
+.footer ul li a{
+    color: white;
+}
+
+.footer{
+    .contenedorWsp{
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        .wsp{
+            color: rgb(42, 200, 42);
+            font-size: 3rem;
+    
+        }
+    }
+}
